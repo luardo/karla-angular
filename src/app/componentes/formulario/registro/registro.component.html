@@ -1,0 +1,15 @@
+<form>
+  <label>inserta tu nombre : </label>
+  <input type="text" name="nombre" [(ngModel)]="nombre" />
+  <br>
+  <label>inserta tu apellido : </label>
+
+  <input type="text"  name="apellido" [(ngModel)]="apellido" />
+
+  <br>
+  <label>inserta tu edad : </label>
+
+  <input type="number"  name="edad" [(ngModel)]="edad" />
+  <div  (click)="enviar()">Haz click </div>
+
+</form>
